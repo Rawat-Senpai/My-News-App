@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sports_button"
+        android:title="Spots"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_baseline_sports_cricket_24"
+      />
+    <item
+        android:id="@+id/hospitol_button"
+        android:title="Health"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        />
+    <item
+        android:id="@+id/technology_button"
+        android:title="technology"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_baseline_science_24" />
+
+
+
+</menu>

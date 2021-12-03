@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_navigation"
+    app:startDestination="@id/healthFrag">
+    <fragment
+        android:id="@+id/sportsFrag"
+        android:name="com.example.kotlin_news.sportsFrag"
+        android:label="fragment_sports"
+        tools:layout="@layout/fragment_sports" >
+        <action
+            android:id="@+id/action_sportsFrag_to_techFrag"
+            app:destination="@id/techFrag" />
+        <action
+            android:id="@+id/action_sportsFrag_to_healthFrag"
+            app:destination="@id/healthFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/techFrag"
+        android:name="com.example.kotlin_news.techFrag"
+        android:label="fragment_tech"
+        tools:layout="@layout/fragment_tech" >
+        <action
+            android:id="@+id/action_techFrag_to_sportsFrag"
+            app:destination="@id/sportsFrag" />
+        <action
+            android:id="@+id/action_techFrag_to_healthFrag"
+            app:destination="@id/healthFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/healthFrag"
+        android:name="com.example.kotlin_news.healthFrag"
+        android:label="fragment_health"
+        tools:layout="@layout/fragment_health" >
+        <action
+            android:id="@+id/action_healthFrag_to_sportsFrag"
+            app:destination="@id/sportsFrag" />
+        <action
+            android:id="@+id/action_healthFrag_to_techFrag"
+            app:destination="@id/techFrag" />
+    </fragment>
+</navigation>
