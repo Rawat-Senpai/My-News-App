@@ -1,5 +1,8 @@
 # My-News-App
-This app fetch data from  newsApi.org  API with use of retrofit library and fragment to show different sacction  like sports section , health section and Tech section . 
+Free app which fetch data from api .
+cover helth , sports and tech section of news.
+This app fetch data from newsApi.org  API with use of retrofit library
+->fragment to show different sacction  like sports section , health section and Tech section . 
 
 ->Splash screen of App 
 -
